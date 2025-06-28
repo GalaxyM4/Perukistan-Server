@@ -3,8 +3,8 @@
   "ChatCommands": {
     "BrodcastCommand": true
   },
-  "HostDeviceName": "GLX",
-  "HostName": "Peruano marron",
+  "HostDeviceName": "Peruano Marron",
+  "HostName": "GLX",
   "KickVoteMsgType": "chat",
   "ScoreScreenAnnouncement": {
     "enable": true,
@@ -41,8 +41,9 @@
   },
   "autoTeamBalance": true,
   "ballistica_web": {
-    "enable": false,
-    "server_password": "my_secerT_password_very_hard"
+    "enable": true,
+    "server_password": "my_secerT_password_very_hard",
+    "discord_link": "https://discord.gg/ucyaesh"
   },
   "character_chooser": {
     "enable": true
