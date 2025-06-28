@@ -308,17 +308,17 @@ def night_mode() -> None:
 
 def kick_vote_started(started_by: str, started_to: str) -> None:
     """Logs the kick vote."""
-    logger.log(f"{started_by} started kick vote for {started_to}.")
+    logger.log(f"{started_by} inició votación para expulsar a {started_to}.")
 
 
 def on_kicked(account_id: str) -> None:
     """Runs when someone is kicked by kickvote."""
-    logger.log(f"{account_id} kicked by kickvotes.")
+    logger.log(f"{account_id} expulsado por kickvotes.")
 
 
 def on_kick_vote_end():
     """Runs when kickvote is ended."""
-    logger.log("Kick vote End")
+    logger.log("Votación para expulsar finalizada.")
 
 
 def on_join_request(ip):
@@ -331,24 +331,24 @@ def shutdown(func) -> None:
     def wrapper(*args, **kwargs):
         # add screen text and tell players we are going to restart soon.
         bs.chatmessage(
-            "Server will restart on next opportunity. (series end)")
+            "El server se reiniciará al final de la serie.")
         _babase.restart_scheduled = True
         bs.get_foreground_host_activity().restart_msg = bs.newnode('text',
-                                                                   attrs={
-                                                                       'text': "Server going to restart after this series.",
-                                                                       'flatness': 1.0,
-                                                                       'h_align': 'right',
-                                                                       'v_attach': 'bottom',
-                                                                       'h_attach': 'right',
-                                                                       'scale': 0.5,
-                                                                       'position': (
-                                                                           -25,
-                                                                           54),
-                                                                       'color': (
-                                                                           1,
-                                                                           0.5,
-                                                                           0.7)
-                                                                   })
+                                                                        attrs={
+                                                                            'text': "El server se reiniciará al final de la serie.",
+                                                                            'flatness': 1.0,
+                                                                            'h_align': 'right',
+                                                                            'v_attach': 'bottom',
+                                                                            'h_attach': 'right',
+                                                                            'scale': 0.5,
+                                                                            'position': (
+                                                                            -25,
+                                                                            54),
+                                                                            'color': (
+                                                                            1,
+                                                                            0.5,
+                                                                            0.7)
+                                                                        })
         func(*args, **kwargs)
 
     return wrapper

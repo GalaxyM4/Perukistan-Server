@@ -3,15 +3,20 @@
   "ChatCommands": {
     "BrodcastCommand": true
   },
-  "HostDeviceName": "v1.4",
-  "HostName": "BCSv2",
+  "HostDeviceName": "Peruano Marron",
+  "HostName": "GLX",
   "KickVoteMsgType": "chat",
   "ScoreScreenAnnouncement": {
     "enable": true,
     "msg": [
-      "click stats button to join discord",
-      "watch hey smoothy youtube channel",
-      "downlaod new mods from discord"
+      "https://discord.gg/RUzsHEKseq",
+      "que dijiste de mi peru pe",
+      "perukistan by galaxym4",
+      "unanse al discord",
+      "se vienen cositas",
+      "oigan causas",
+      "usa /dc para obtener el link",
+      "/discord en el chat"
     ]
   },
   "ShowKickVoteStarterName": true,
@@ -57,7 +62,7 @@
   },
   "discordWebHook": {
     "enable": false,
-    "webhookURL": "https://discord.com/api/webhooks/82649239/e7s0zyBJIuczXL7_CGSO5WM"
+    "webhookURL": ""
   },
   "discordbot": {
     "enable": false,
@@ -86,14 +91,14 @@
       "Tank Shield": 1,
       "Triple": 3
     },
-    "enable": false,
+    "enable": true,
     "settings": {
       "Healing Damage PTG": 72,
       "Powers Gravity": true,
       "Powerup Name": true,
       "Powerup Scale": 1,
       "Powerup Style": "Auto",
-      "Powerup Time": false,
+      "Powerup Time": true,
       "Powerup With Shield": true,
       "Powerups": {
         "Curse": 1,
@@ -117,7 +122,7 @@
       "Tank Shield PTG": 96
     }
   },
-  "enableHitTexts": true,
+  "enableHitTexts": false,
   "enableTagAnimation": true,
   "enableTop5effects": true,
   "enableeffects": true,
@@ -125,7 +130,7 @@
   "enablerank": true,
   "enablestats": true,
   "enabletags": true,
-  "firstTimeJoinMsg": "Welcome to the server,we r saving all your account details and chats",
+  "firstTimeJoinMsg": "Ola pe, bienvenido a perukistan.",
   "leaderboard": {
     "barsBehindName": true,
     "enable": true
@@ -142,38 +147,33 @@
   "playermod": {
     "default_bomb": "normal",
     "default_bomb_count": 1,
-    "default_boxing_gloves": true,
+    "default_boxing_gloves": false,
     "default_shield": false
   },
   "playlists": {
     "elim": 412172,
     "epic": 412173,
-    "ffa": 412175,
+    "ffa": 501330,
     "ffasmash": 412179,
     "smash": 412151,
     "soccer": 412160,
     "team": 12345
   },
-  "regularWelcomeMsg": "Welcome Back",
+  "regularWelcomeMsg": "Hola pe",
   "sameCharacterForTeam": false,
   "statsResetAfterDays": 31,
   "textonmap": {
-    "bottom left watermark": "Owner : <owner-name> \nEditor : <bablu>\nScripts : BCS1.7.41",
+    "bottom left watermark": "Owner: GalaxyM4 \nScripts : BCS 1.7.13",
     "center highlights": {
       "color": [
         1,
         0,
         0
       ],
-      "msg": [
-        "type end to start end vote",
-        "start msg with prefix .(dot) to send in game popup msg",
-        "start msg with prefix ,(comma) to send msg to teammates",
-        "BombSquad Community Server - BCS"
-      ],
+      "msg": [""],
       "randomColor": true
     },
-    "top watermark": "Welcome to server \nIP @IP PORT @PORT"
+    "top watermark": ""
   },
   "useV2Account": false,
   "warnMsg": "WARNING !!!",

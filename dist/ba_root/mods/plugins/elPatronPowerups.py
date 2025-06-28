@@ -26,7 +26,7 @@ if TYPE_CHECKING:
 
 def getlanguage(text, subs: str = None, almacen: list = []):
     if almacen == []: almacen = list(range(1000))
-    lang = bui.app.lang.language
+    lang = 'Spanish'
     translate = {"Reset":
                      {"Spanish": "Reiniciar",
                       "English": "Reset",
@@ -40,7 +40,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "Powerups",
                       "Portuguese": "Powerups"},
                  "Action 2":
-                     {"Spanish": "ConfiguraciÃƒÂ³n",
+                     {"Spanish": "Configuración",
                       "English": "Settings",
                       "Portuguese": "DefiniÃƒÂ§ÃƒÂµes"},
                  "Action 3":
@@ -52,7 +52,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "Store",
                       "Portuguese": "Loja"},
                  "Action 5":
-                     {"Spanish": "Canjear cÃƒÂ³digo",
+                     {"Spanish": "Canjear código",
                       "English": "Enter Code",
                       "Portuguese": "CÃƒÂ³digo promocional"},
                  "Custom":
@@ -80,23 +80,23 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "Expansive bombs",
                       "Portuguese": "Bombas expansivas"},
                  "Goodbye":
-                     {"Spanish": "Ã‚Â¡Hasta luego!",
+                     {"Spanish": "No vemo!",
                       "English": "Goodbye!",
                       "Portuguese": "Adeus!"},
                  "Healing Damage":
-                     {"Spanish": "Auto-curaciÃƒÂ³n",
+                     {"Spanish": "Auto-curación",
                       "English": "Healing Damage",
                       "Portuguese": "Auto-cura"},
                  "Tank Shield":
-                     {"Spanish": "SÃƒÂºper blindaje",
+                     {"Spanish": "Super blindaje",
                       "English": "Reinforced shield",
                       "Portuguese": "Escudo reforÃƒÂ§ado"},
                  "Tank Shield PTG":
-                     {"Spanish": "Porcentaje de disminuciÃƒÂ³n",
+                     {"Spanish": "Menos porcentaje",
                       "English": "Percentage decreased",
                       "Portuguese": "Percentual reduzido"},
                  "Healing Damage PTG":
-                     {"Spanish": "Porcentaje de recuperaciÃƒÂ³n de salud",
+                     {"Spanish": "Recuperación de salud",
                       "English": "Percentage of health recovered",
                       "Portuguese": "Porcentagem de recuperaÃƒÂ§ÃƒÂ£o de saÃƒÂºde"},
                  "SY: BALL":
@@ -112,7 +112,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "Egg shape",
                       "Portuguese": "Ovo"},
                  "Powerup Scale":
-                     {"Spanish": "TamaÃƒÂ±o del potenciador",
+                     {"Spanish": "Tamaño del potenciador",
                       "English": "Powerups size",
                       "Portuguese": "Tamanho de powerups"},
                  "Powerup With Shield":
@@ -136,7 +136,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "Show percentage",
                       "Portuguese": "Mostrar porcentagem"},
                  "Only Items":
-                     {"Spanish": "SÃƒÂ³lo Accesorios",
+                     {"Spanish": "Sólo Accesorios",
                       "English": "Only utensils",
                       "Portuguese": "Apenas utensilios"},
                  "New":
@@ -144,7 +144,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                       "English": "New",
                       "Portuguese": "Novo"},
                  "Only Bombs":
-                     {"Spanish": "SÃƒÂ³lo Bombas",
+                     {"Spanish": "Sólo Bombas",
                       "English": "Only bombs",
                       "Portuguese": "Apenas bombas"},
                  "Coins 0":
@@ -221,7 +221,7 @@ def getlanguage(text, subs: str = None, almacen: list = []):
                          "Portuguese": f"VocÃƒÂª ganhou {almacen[0]} Moedas. {_sp_} Mas vocÃƒÂª excedeu o limite de {almacen[1]}"},
                  }
     languages = ['Spanish', 'Portuguese', 'English']
-    if lang not in languages: lang = 'English'
+    if lang not in languages: lang = 'Spanish'
 
     if text not in translate:
         return text
