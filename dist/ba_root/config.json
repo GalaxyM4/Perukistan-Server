@@ -13,7 +13,7 @@
    "Complete": false
   },
   "Free Loader": {
-   "Complete": false
+   "Complete": true
   },
   "Gold Miner": {
    "Complete": false
@@ -195,28 +195,42 @@
   "Client Input Device #1": "__account__"
  },
  "FFA Series Length": 24,
- "Fleet Zone Ping Last Flush Time": 1744468224,
+ "Fleet Zone Ping Last Flush Time": 1751241485,
  "Fleet Zone Pings": {
   "prod": {
-   "bangkok.v4": 106.51884313655319,
-   "delhi.v4": 60.29963269479843,
-   "hyderabad.v4": 84.80298814475032,
-   "kolkata.v4": 50.75696343299192,
-   "mumbai.v4": 66.94819074099888
+   "atlanta.v4": 133.70195988493435,
+   "calgary.v4": 199.54636291338505,
+   "chicago.v4": 154.46689823141588,
+   "columbus.v4": 141.27048805157418,
+   "dallas.v4": 132.65768462610612,
+   "denver.v4": 150.64438986015142,
+   "houston.v4": 133.0011287854026,
+   "kansas_city.v4": 162.8393678442311,
+   "lima.v4": 117.73529365317549,
+   "los_angeles.v4": 155.296666283014,
+   "miami.v4": 107.19787117207184,
+   "minneapolis.v4": 164.19691940544269,
+   "montreal.v4": 146.27381692480066,
+   "n_virginia.v4": 131.14140405244805,
+   "new_york.v4": 136.6337385259612,
+   "oregon.v4": 178.67202518513662,
+   "phoenix.v4": 153.66205653513165,
+   "queretaro.v4": 159.94380369354997,
+   "san_jose.v4": 162.4028976179543
   }
  },
  "Free-for-All Playlist Randomize": true,
- "Free-for-All Playlist Selection": "__default__",
+ "Free-for-All Playlist Selection": "Perukistan NO Mocs",
  "Free-for-All Playlists": {},
  "Idle Exit Minutes": 20.0,
- "Local Account Name": "Server21364126",
+ "Local Account Name": "Server20786053",
  "PPM Settings": {
   "Healing Damage PTG": 72,
   "Powers Gravity": true,
   "Powerup Name": true,
-  "Powerup Scale": 1.0,
+  "Powerup Scale": 1,
   "Powerup Style": "Auto",
-  "Powerup Time": false,
+  "Powerup Time": true,
   "Powerup With Shield": true,
   "Powerups": {
    "Curse": 1,
@@ -255,9 +269,6 @@
   }
  },
  "Plugins": {
-  "create_server.EntryPoint": {
-   "enabled": true
-  },
   "custom_hooks.modSetup": {
    "enabled": true
   },
@@ -276,7 +287,7 @@
  "Team Tournament Playlist Selection": "\u041a\u043e\u043f\u0438\u044f \u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u043d\u044b\u0439 \u043f\u043b\u0435\u0439-\u043b\u0438\u0441\u0442 \u0440\u0435\u0436\u0438\u043c\u0430 \u041a\u043e\u043c\u0430\u043d\u0434\u044b",
  "Team Tournament Playlists": {},
  "Teams Series Length": 7,
- "launchCount": 107,
+ "launchCount": 110,
  "lc14173": 1,
  "lc14292": 1
 }

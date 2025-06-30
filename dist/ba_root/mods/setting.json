@@ -28,7 +28,7 @@
     "kick_idle_from_lobby": true,
     "lobby_idle_time_in_secs": 10
   },
-  "afterWarnKickMsg": "Enough warnings, Goodbye have a nice day :)",
+  "afterWarnKickMsg": "Muchas advertencias perdón por esto :)",
   "allowInGameChat": true,
   "allowTeamChat": true,
   "allowVotes": true,
@@ -43,7 +43,7 @@
   "ballistica_web": {
     "enable": true,
     "server_password": "my_secerT_password_very_hard",
-    "discord_link": "https://discord.gg/ucyaesh"
+    "discord_link": "https://discord.gg/RUzsHEKseq"
   },
   "character_chooser": {
     "enable": true
@@ -91,7 +91,7 @@
       "Tank Shield": 1,
       "Triple": 3
     },
-    "enable": true,
+    "enable": false,
     "settings": {
       "Healing Damage PTG": 72,
       "Powers Gravity": true,
@@ -176,6 +176,6 @@
     "top watermark": ""
   },
   "useV2Account": false,
-  "warnMsg": "WARNING !!!",
+  "warnMsg": "CUIDADO !!!",
   "whitelist": false
 }
