@@ -41,7 +41,7 @@
   },
   "autoTeamBalance": true,
   "ballistica_web": {
-    "enable": true,
+    "enable": false,
     "server_password": "my_secerT_password_very_hard",
     "discord_link": "https://discord.gg/RUzsHEKseq"
   },
@@ -163,7 +163,7 @@
   "sameCharacterForTeam": false,
   "statsResetAfterDays": 31,
   "textonmap": {
-    "bottom left watermark": "Owner: GalaxyM4 \nScripts : BCS 1.7.13",
+    "bottom left watermark": "Owner: GalaxyM4 \nHost: dom1nux \nScripts : BCS 1.7.13",
     "center highlights": {
       "color": [
         1,
